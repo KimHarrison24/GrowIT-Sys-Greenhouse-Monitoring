@@ -1,0 +1,33 @@
+/* import stylesheet */
+@import url(/css/default_design/all_default.css);
+@import url(/css/default_design/custom_header_sidenav.css);
+
+/* PROPERTIES FORMAT GUIDE:                                     */
+/*  positioning - position, top, right, bottom, left, z-index   */
+/*  box model - width, height, margin, padding, border, display */
+/*  typography - font, size, weight, color, text-align          */
+/*  visual styles - background, box-shadow, opacity             */
+/*  miscellaneous - cursor, transition, animation               */
+
+.page-title {
+    /* positioning */
+       position: absolute;
+       top: 9%;
+       left: 5%;
+
+    /* visual styles */
+}
+
+.dashboard-today-record-container {
+    /* positioning */
+       position: absolute;
+       top: 17%;
+       left: 5%;
+    
+    /* visual styles */
+       width: 100px;
+       height: 100px;
+
+    /* visual styles */
+       background-color: azure;
+}

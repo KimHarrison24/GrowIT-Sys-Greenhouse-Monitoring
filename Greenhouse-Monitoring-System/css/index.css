@@ -1,0 +1,28 @@
+@import url(/css/default_design/all_default.css);
+
+/* PROPERTIES FORMAT GUIDE:                                     */
+/*  positioning - position, top, right, bottom, left, z-index   */
+/*  box model - width, height, margin, padding, border, display */
+/*  typography - font, size, weight, color, text-align          */
+/*  visual styles - background, box-shadow, opacity             */
+/*  miscellaneous - cursor, transition, animation               */
+
+body {
+    overflow-x: hidden;
+}
+
+.upper-design {
+    width: 100%;
+    height: 27px;
+    padding: 4px;
+    background-color: #e3eed4;
+}
+
+.circle-design-1, .circle-design-2, .circle-design-3 {
+    width: 24.5px;
+    height: 24.5px;
+    margin-left: 4px;
+    border-radius: 50%;
+    background-color: #aec3b0;
+    display: inline-block;
+}

@@ -1,0 +1,81 @@
+/* PROPERTIES FORMAT GUIDE:                                     */
+/*  positioning - position, top, right, bottom, left, z-index   */
+/*  box model - width, height, margin, padding, border, display */
+/*  typography - font, size, weight, color, text-align          */
+/*  visual styles - background, box-shadow, opacity             */
+/*  miscellaneous - cursor, transition, animation               */
+
+/* header */
+
+.custom-header-container {
+    /* box model */
+       width: 100%;
+       height: 45px;
+    
+    /* visual styles */
+       background-color: #222a21;
+}
+
+.sys-logo {
+    /* positioning */
+       float: left;
+
+    /* box model */
+       width: 45px;
+       height: 45px;
+       margin-left: 10px;
+}
+
+.sys-name {
+    /* positioning */
+       float: left;
+       
+    /* box model */
+       margin-top: -0.9px;
+       margin-left: 5px;
+
+    /* visual styles */
+       color: #ffffff;
+}
+
+/* ----- end ----- */
+
+/* left-side navigation */
+
+.custom-vertical-nav-container {
+    /* positioning */
+       position: absolute;
+       top: 32%;
+        
+    /* box model */
+       width: 38px;
+       height: fit-content;
+       border-left: #222a21 4px solid;
+
+    /* visual styles */
+       background-color: #222a21;
+}
+
+.custom-vertical-nav-container a {
+    /* box model */
+       padding: 7px;
+       display: block;
+}
+
+.custom-vertical-nav-container a:hover {
+    /* visual styles */
+       background-color: #98a471;
+}
+
+.custom-vertical-nav-container a.active {
+    /* visual styles */
+       background-color: #ffffff;
+}
+
+.nav-icon {
+    /* box model */
+       width: 24px;
+       height: 24px;
+}
+
+/* ----- end ----- */
